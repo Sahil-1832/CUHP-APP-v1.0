@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_nav"
+    app:startDestination="@+id/navHome">
+
+    <fragment
+        android:id="@+id/navHome"
+        android:name="com.example.cuhpapp.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/navNotice"
+        android:name="com.example.cuhpapp.ui.notice.NoticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice"/>
+    <fragment
+        android:id="@+id/navFaculty"
+        android:name="com.example.cuhpapp.ui.faculty.FacultyFragment"
+        android:label="Faculty"
+        tools:layout="@layout/fragment_faculty"/>
+    <fragment
+        android:id="@+id/navGallery"
+        android:name="com.example.cuhpapp.ui.gallery.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery"/>
+    <fragment
+        android:id="@+id/navAbout"
+        android:name="com.example.cuhpapp.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about"/>
+</navigation>

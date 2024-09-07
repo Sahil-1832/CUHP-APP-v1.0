@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@mipmap/cuhp_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CUHP App"
+                android:fontFamily="@font/open_sans_regular"
+                android:layout_marginLeft="16dp"
+                android:textSize="18dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"/>
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:layout_marginStart="146dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/open_sans_regular"
+                app:strokeColor="@color/green1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reason : "
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not need to delete right now"
+                android:textColor="@color/textColor"
+                android:textSize="18dp"
+                android:id="@+id/reason"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/category"
+            android:text="Category"
+            android:fontFamily="@font/open_sans_regular"
+            android:textSize="17sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/heading"/>
+
+        <ImageView
+            android:id="@+id/deleteImage"
+            android:layout_width="match_parent"
+            android:layout_marginTop="6dp"
+            android:background="@color/mainBackground"
+            android:layout_height="427dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

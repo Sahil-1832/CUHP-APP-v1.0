@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="The Central University of Himachal Pradesh is established under the Central Universities Act 2009 (No. 25 of 2009) enacted by the Parliament.The University is funded and regulated by the University Grants Commission (UGC)."
+        android:textSize="14dp"
+        android:padding="6dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/vc_image"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:text="Prof Sat Prakash Bansal"
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Hon'ble Vice-Chancellor"
+                android:textColor="@color/textColor"
+                android:textSize="12dp"/>
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:text="Central University of Himachal Pradesh"
+                android:textSize="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Objectives"
+            android:background="@color/green1"
+            android:padding="4dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. To educate and train manpower for the development of the country."
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. To establish linkages with industries for the promotion of science and technology."
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. To take appropriate measures for promoting innovations in teaching-learning process and inter-disciplinary studies and research."
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. To  pay special attention to the improvement of social and economic conditions and welfare of the people, their intellectual, academic and cultural development."
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campus Locations"
+            android:layout_marginTop="10dp"
+            android:padding="4dp"
+            android:background="@color/green1"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="-> Headquarters of the university - Dharamshala"
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-> Main Campus - Dehra"
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-> Temporary Block - Shahpur"
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Milestones"
+            android:background="@color/green1"
+            android:textSize="16dp"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" ^ 2010,July 10th : 1st Meeting of the Academic Council held at IIC, New Delhi."
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ^ 2010,April 26th : 1st Academic Council constituted by the Government of India."
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ^ 2010,April 23rd : Government of India accepts report of the Central Site Committee; declares Dharamshala as Headquarter of the University with one Campus at Dharamshala and another Campus at Dehra."
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ^ 2009,March 20th : Presidential assent received on the Central Universities Bill 2009. Gazette notification issued for Central Universities Act 2009 (No. 25 of 2009)."
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to reach Us"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:background="@color/green1"
+            android:padding="4dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#fff"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:src="@drawable/location_shahpur"
+            android:id="@+id/shahpurMap"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shahpur"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

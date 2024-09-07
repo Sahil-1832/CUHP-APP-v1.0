@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:id="@+id/click"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_description"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                <TextView
+                    android:id="@+id/pdfTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:text="PDF Title"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:textColor="@color/textColor"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:text="PDF Title  drop it and wake up to reality"
+                android:fontFamily="@font/open_sans_regular"
+                android:textColor="@color/textColor"
+                android:textSize="10sp" />
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/download"
+            android:src="@drawable/ebook_download"
+            android:backgroundTint="#ffffff"
+            />
+</LinearLayout>
+</LinearLayout>

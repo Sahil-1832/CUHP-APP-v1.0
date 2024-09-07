@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cuhpapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/cuhp_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/cuhp_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CUHPApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Teacher.RejectedEbooks"
+            android:exported="false" />
+        <activity
+            android:name=".DEO.RejectedEvents"
+            android:exported="false" />
+        <activity
+            android:name=".DEO.RejectedNotices"
+            android:exported="false" />
+        <activity
+            android:name=".DEO.DEOSide"
+            android:exported="false" />
+        <activity
+            android:name=".DEO.SendRequests"
+            android:exported="false" />
+        <activity
+            android:name=".HOD.HODSide"
+            android:exported="false" />
+        <activity
+            android:name=".HOD.DeleteEbooksRequest"
+            android:exported="false" />
+        <activity
+            android:name=".HOD.DeleteImageRequest"
+            android:exported="false" />
+        <activity
+            android:name=".HOD.DeleteNoticeRequest"
+            android:exported="false" />
+        <activity
+            android:name=".HOD.DeleteRequests"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.EbooksFaculty"
+            android:exported="false"
+            android:parentActivityName=".Teacher.Faculty" />
+        <activity
+            android:name=".DEO.EventsDeo"
+            android:exported="false"
+            android:parentActivityName=".delete.DeleteFiles" />
+        <activity
+            android:name=".DEO.NoticeDeo"
+            android:exported="false"
+            android:parentActivityName=".delete.DeleteFiles" />
+        <activity
+            android:name=".Teacher.ViewStudent"
+            android:exported="false" />
+        <activity
+            android:name=".SuperAdmin.Requests2"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Faculty"
+            android:exported="false" />
+        <activity
+            android:name=".DEO.Requests"
+            android:exported="false"
+            android:parentActivityName=".AdminSide" />
+        <activity
+            android:name=".Here"
+            android:exported="false" />
+        <activity
+            android:name=".Holidays"
+            android:exported="false"
+            android:parentActivityName=".StudentSide" />
+        <activity
+            android:name=".Developer"
+            android:exported="false"
+            android:parentActivityName=".StudentSide" />
+        <activity
+            android:name=".Syllabus"
+            android:exported="false"
+            android:parentActivityName=".StudentSide" />
+        <activity
+            android:name=".getEbook.getEbook"
+            android:exported="false"
+            android:parentActivityName=".StudentSide" />
+        <activity
+            android:name=".StudentSide"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSide"
+            android:exported="false" />
+        <activity
+            android:name=".delete.DeleteEbook"
+            android:exported="false" />
+        <activity
+            android:name=".delete.DeleteImage"
+            android:exported="false" />
+        <activity
+            android:name=".delete.DeleteNotice"
+            android:exported="false" />
+        <activity
+            android:name=".delete.DeleteFiles"
+            android:exported="false" />
+        <activity
+            android:name=".faculty.UpdateFacultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".faculty.Addteacher"
+            android:exported="false" />
+        <activity
+            android:name=".faculty.UpdateFaculty"
+            android:exported="false" />
+        <activity
+            android:name=".UploadPdf"
+            android:exported="false" />
+        <activity
+            android:name=".UploadImage"
+            android:exported="false"
+            android:theme="@style/Theme.CUHPApp" />
+        <activity
+            android:name=".UploadNotice"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

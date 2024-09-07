@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="#c1c1c1"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c1c1c1"
+                android:layout_marginStart="5dp"
+                android:orientation="horizontal">
+            </View>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#c1c1c1"
+            android:layout_marginLeft="6dp"/>
+        <ImageView
+            android:id="@+id/deleteImage"
+            android:layout_width="match_parent"
+            android:layout_marginTop="6dp"
+            android:background="@color/mainBackground"
+            android:layout_height="427dp" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

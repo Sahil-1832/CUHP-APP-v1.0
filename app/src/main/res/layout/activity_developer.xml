@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1FAFF"
+    android:layout_marginTop="40dp"
+    tools:context=".Developer">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardCornerRadius="28dp"
+                android:layout_marginStart="2dp"
+                app:cardElevation="2dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/new_passport_photo"
+                    android:scaleType="centerCrop"/>
+
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sahil Sharma"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email1"
+                    android:text="sharmasahil1832@gmail.com"
+                    android:textSize="16sp"
+                    android:textColor="@color/green1"
+                    android:layout_marginBottom="14dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/ic_linkedin"
+                        android:id="@+id/linkedin1"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:layout_marginEnd="16dp"/>
+
+                    <ImageButton
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:src="@drawable/ic_twitter"
+                        android:id="@+id/twitter1"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="16dp"/>
+
+                    <ImageButton
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:src="@drawable/ic_insta"
+                        android:id="@+id/instagram1"
+                        android:background="@null"
+                        android:scaleType="fitCenter"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardCornerRadius="28dp"
+                android:layout_marginStart="2dp"
+                app:cardElevation="2dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/pandey"
+                    android:scaleType="centerCrop"/>
+
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kshitij Pandey"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email2"
+                    android:text="kshitijpandey25@gmail.com"
+                    android:textSize="16sp"
+                    android:textColor="@color/green1"
+                    android:layout_marginBottom="14dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/ic_linkedin"
+                        android:id="@+id/linkedin2"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:layout_marginEnd="16dp"/>
+
+                    <ImageButton
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:src="@drawable/ic_twitter"
+                        android:id="@+id/twitter2"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="16dp"/>
+
+                    <ImageButton
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:src="@drawable/ic_insta"
+                        android:id="@+id/instagram2"
+                        android:background="@null"
+                        android:scaleType="fitCenter"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
